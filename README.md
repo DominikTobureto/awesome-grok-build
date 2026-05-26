@@ -76,6 +76,7 @@ Remove-Item -Recurse -Force "$env:TEMP\awesome-grok-build" -ErrorAction Silently
 - [Why This Repo Exists](#why-this-repo-exists)
 - [Official Resources](#official-resources)
 - [What Grok Build Does](#what-grok-build-does)
+- [Setup Guide](#setup-guide)
 - [Ready-to-Use Skills 12+](#ready-to-use-skills-12)
 - [Skills & Hooks](#skills--hooks)
 - [AGENTS.md Templates](#agentsmd-templates)
@@ -127,6 +128,19 @@ Based on official xAI docs and launch pages, Grok Build is built around:
 - **Claude Code compatibility** for existing Claude instruction, skill, plugin, MCP, and hook setups.
 - **Headless mode** via `grok -p` for scripts, CI, bots, and automations.
 - **ACP support** via `grok agent stdio` for IDEs and custom agent orchestration.
+
+## Setup Guide
+
+For a practical walkthrough, see [`docs/grok-build-workflow-setup.md`](docs/grok-build-workflow-setup.md).
+
+It covers:
+
+- installing reusable `.grok/skills`;
+- choosing an AGENTS.md template;
+- adding a safe `.grokignore`;
+- checking what Grok Build discovers with `grok inspect`;
+- using Plan Mode before risky edits;
+- keeping hooks explicit and reviewable.
 
 ## Ready-to-Use Skills 12+
 
