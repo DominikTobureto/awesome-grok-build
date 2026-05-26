@@ -1,0 +1,27 @@
+# Copy to .grokignore for Node/TypeScript projects
+
+.env
+.env.*
+!.env.example
+
+node_modules/
+.pnpm-store/
+.yarn/
+
+dist/
+build/
+out/
+coverage/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.grok/generated-media/
+.grok/computer/

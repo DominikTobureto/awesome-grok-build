@@ -1,0 +1,67 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa
+id_ed25519
+*.kdbx
+
+# Dependency directories
+node_modules/
+.pnpm-store/
+.yarn/
+vendor/
+
+# Build output
+dist/
+build/
+out/
+coverage/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+
+# Python
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+
+# Logs and local state
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.DS_Store
+Thumbs.db
+
+# Generated media and bulky artifacts
+*.mp4
+*.mov
+*.webm
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Agent/tool state
+.grok/generated-media/
+.grok/computer/
+.claude/.credentials/
+.cursor/memories/
+
+# Package manager lock debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

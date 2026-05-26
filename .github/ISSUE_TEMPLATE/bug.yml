@@ -1,0 +1,24 @@
+name: Report a problem
+description: Broken link, stale claim, bad template, or unsafe example.
+title: "Fix: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong or stale?
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: File or section
+      placeholder: README.md#official-resources
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: Link to updated source if possible.
+    validations:
+      required: false

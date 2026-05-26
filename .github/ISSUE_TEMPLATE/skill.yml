@@ -1,0 +1,45 @@
+name: Add a Grok Build skill
+description: Propose a reusable .grok/skills entry.
+title: "Skill: "
+labels: ["skill", "good first issue"]
+body:
+  - type: input
+    id: skill-name
+    attributes:
+      label: Skill name
+      placeholder: playwright-qa
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: What repeated Grok Build workflow does this skill improve?
+    validations:
+      required: true
+  - type: textarea
+    id: trigger
+    attributes:
+      label: Trigger description
+      description: When should Grok use this skill?
+      placeholder: Use when...
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification and safety
+      description: What checks should run? What should the agent ask approval for?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: The skill is useful outside my own repo.
+          required: true
+        - label: The skill includes safety notes for commands, hooks, network calls, or file writes.
+          required: true
+        - label: The skill explains how to verify the work.
+          required: true

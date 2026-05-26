@@ -1,0 +1,42 @@
+name: Add a Grok Build resource
+description: Suggest an official link, community project, skill, hook, or template.
+title: "Resource: "
+labels: ["resource"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options:
+        - Official xAI source
+        - Community project
+        - Skill
+        - Hook
+        - AGENTS.md template
+        - Prompt/example
+        - Correction
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be included?
+      placeholder: Explain the concrete value for Grok Build users.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I verified this link is public.
+          required: true
+        - label: I will label unofficial or experimental claims clearly.
+          required: true

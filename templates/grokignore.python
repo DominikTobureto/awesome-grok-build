@@ -1,0 +1,26 @@
+# Copy to .grokignore for Python projects
+
+.env
+.env.*
+!.env.example
+
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+htmlcov/
+dist/
+build/
+*.egg-info/
+*.pyc
+
+*.ipynb_checkpoints/
+*.log
+
+.grok/generated-media/
+.grok/computer/
