@@ -1,0 +1,25 @@
+{
+  "name": "awesome-grok-build",
+  "version": "1.0.0",
+  "description": "Community starter kit and skill library for xAI Grok Build CLI",
+  "private": true,
+  "license": "MIT",
+  "author": "awesome-grok-build",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DominikTobureto/awesome-grok-build"
+  },
+  "keywords": [
+    "grok-build",
+    "xai",
+    "ai-agent",
+    "coding-agent",
+    "skills",
+    "awesome-list",
+    "starter-kit"
+  ],
+  "scripts": {
+    "validate": "node .github/workflows/scripts/validate-skills.js",
+    "validate:ci": "node .github/workflows/scripts/validate-skills.js"
+  }
+}

@@ -23,6 +23,8 @@ Example:
 ---
 name: release-notes
 description: Use when drafting release notes from git history, changelog entries, or a pull request diff.
+version: 1.0.0
+author: your-name-or-org
 ---
 
 # Release Notes

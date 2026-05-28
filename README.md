@@ -3,6 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Skills Validated](https://img.shields.io/badge/skills-validated-brightgreen.svg)](.github/workflows/skill-validate.yml)
 [![Made with Grok Build](https://img.shields.io/badge/made%20with-Grok%20Build-black)](https://x.ai/cli)
 
 > A practical awesome list, starter kit, and skill library for xAI's Grok Build CLI.
@@ -62,6 +63,22 @@ Use the repo-health-check skill and tell me the smallest safe PR we should ship 
 Install all skills into any repo in one command:
 
 ```bash
+# macOS / Linux / WSL
+curl -fsSL https://raw.githubusercontent.com/DominikTobureto/awesome-grok-build/main/install.sh | bash
+
+# Windows PowerShell
+irm https://raw.githubusercontent.com/DominikTobureto/awesome-grok-build/main/install.ps1 | iex
+```
+
+Or install into a specific directory:
+
+```bash
+bash install.sh /path/to/your-project
+```
+
+Manual install (clone + copy):
+
+```bash
 rm -rf /tmp/awesome-grok-build && git clone --depth 1 https://github.com/DominikTobureto/awesome-grok-build.git /tmp/awesome-grok-build && mkdir -p .grok && cp -R /tmp/awesome-grok-build/.grok/skills .grok/
 ```
 
@@ -85,6 +102,8 @@ Remove-Item -Recurse -Force "$env:TEMP\awesome-grok-build" -ErrorAction Silently
 - [Community Skills](#community-skills)
 - [Tips & Tricks](#tips--tricks)
 - [Comparison](#comparison)
+- [Roadmap](ROADMAP.md)
+- [Changelog](CHANGELOG.md)
 - [Contributing](#contributing)
 
 ## Why This Repo Exists
