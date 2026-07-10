@@ -252,6 +252,7 @@ Early ecosystem links worth watching:
 | [AppleLamps/grok-build-web](https://github.com/AppleLamps/grok-build-web) | Local browser UI that bridges to `grok agent stdio` through ACP. Very early, but exactly the kind of wrapper category that will grow fast. |
 | [grokbuildweb.com](https://grokbuildweb.com/) | Project site for the browser UI wrapper. |
 | [parallelagents.live](https://parallelagents.live/) | Unofficial "arena" style demo around parallel agents. Treat as inspiration, not documentation. |
+| [SuperGrok Mac](https://supergrokmac.com) | Community, freeware (closed source, notarized). Native macOS desk for the Grok coding agent: real project folders, a real shell with approval gates on every command, restorable sessions, ⌘K palette. Needs macOS 14+ on Apple Silicon plus your own SuperGrok subscription or xAI API key. Not affiliated with xAI. |
 
 Submit more via PR. Include a one-line description, license, and whether it is official, community, experimental, or commercial.
 
