@@ -252,6 +252,7 @@ Early ecosystem links worth watching:
 | [AppleLamps/grok-build-web](https://github.com/AppleLamps/grok-build-web) | Local browser UI that bridges to `grok agent stdio` through ACP. Very early, but exactly the kind of wrapper category that will grow fast. |
 | [grokbuildweb.com](https://grokbuildweb.com/) | Project site for the browser UI wrapper. |
 | [parallelagents.live](https://parallelagents.live/) | Unofficial "arena" style demo around parallel agents. Treat as inspiration, not documentation. |
+| [grok-build-community](https://github.com/Cashmeran/grok-build-community)| Privacy-first fork: no telemetry, optimized search & prompt, 6 new tools, multi-model. [Apache 2.0] |
 
 Submit more via PR. Include a one-line description, license, and whether it is official, community, experimental, or commercial.
 
