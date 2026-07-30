@@ -252,6 +252,7 @@ Early ecosystem links worth watching:
 | [AppleLamps/grok-build-web](https://github.com/AppleLamps/grok-build-web) | Local browser UI that bridges to `grok agent stdio` through ACP. Very early, but exactly the kind of wrapper category that will grow fast. |
 | [grokbuildweb.com](https://grokbuildweb.com/) | Project site for the browser UI wrapper. |
 | [parallelagents.live](https://parallelagents.live/) | Unofficial "arena" style demo around parallel agents. Treat as inspiration, not documentation. |
+| [supernovae-st/nika-agents](https://github.com/supernovae-st/nika-agents) | Community. Nika — intent-as-code for AI workflows: author a reviewable DAG in YAML, audit cost/permits before running, keep tamper-evident traces after. Grok Build reads the kit natively (one `grok plugin marketplace add supernovae-st/nika-agents` installs skills, slash commands, subagents, hooks and a read-only MCP oracle — verified on grok 0.2.117). |
 
 Submit more via PR. Include a one-line description, license, and whether it is official, community, experimental, or commercial.
 
