@@ -249,7 +249,7 @@ Early ecosystem links worth watching:
 | Project | Notes |
 | --- | --- |
 | [superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli) | Popular community-built Grok API coding agent. Not official xAI Grok Build, but useful for ecosystem patterns around TUI, subagents, web/X search, media generation, and schedules. |
-| [neyham/ai-usage-dashboard](https://github.com/neyham/ai-usage-dashboard) | Fullscreen multi-panel board (Win/macOS/Linux) that shows Grok Build usage windows + reset times alongside Claude Code / Codex, plus DeepSeek API balance. Local-first, spare-display oriented. | community |
+| [neyham/ai-usage-dashboard](https://github.com/neyham/ai-usage-dashboard) | Community. Fullscreen multi-panel board (Win/macOS/Linux) that shows Grok Build usage windows + reset times alongside Claude Code / Codex, plus DeepSeek API balance. Local-first, spare-display oriented. |
 | [AppleLamps/grok-build-web](https://github.com/AppleLamps/grok-build-web) | Local browser UI that bridges to `grok agent stdio` through ACP. Very early, but exactly the kind of wrapper category that will grow fast. |
 | [grokbuildweb.com](https://grokbuildweb.com/) | Project site for the browser UI wrapper. |
 | [parallelagents.live](https://parallelagents.live/) | Unofficial "arena" style demo around parallel agents. Treat as inspiration, not documentation. |
