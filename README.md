@@ -252,7 +252,7 @@ Early ecosystem links worth watching:
 | [AppleLamps/grok-build-web](https://github.com/AppleLamps/grok-build-web) | Local browser UI that bridges to `grok agent stdio` through ACP. Very early, but exactly the kind of wrapper category that will grow fast. |
 | [grokbuildweb.com](https://grokbuildweb.com/) | Project site for the browser UI wrapper. |
 | [parallelagents.live](https://parallelagents.live/) | Unofficial "arena" style demo around parallel agents. Treat as inspiration, not documentation. |
-| [Agent Island](https://github.com/tristan666666/agent-island) | Community, MIT. Native macOS/Windows status companion that reads local Grok Build session records alongside Claude Code, Codex, Gemini CLI and Cursor: live working/stalled/your-turn state, your-turn alerts, and weekly usage computed on-device. |
+| [Agent Island](https://github.com/tristan666666/agent-island) | Community, MIT. Native macOS/Windows status companion that reads local Grok Build session records alongside Claude Code, Codex, Antigravity and Cursor: live working/stalled/your-turn state, your-turn alerts, and weekly usage computed on-device. |
 
 Submit more via PR. Include a one-line description, license, and whether it is official, community, experimental, or commercial.
 
