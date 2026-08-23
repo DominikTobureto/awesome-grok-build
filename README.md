@@ -252,6 +252,7 @@ Early ecosystem links worth watching:
 | [AppleLamps/grok-build-web](https://github.com/AppleLamps/grok-build-web) | Local browser UI that bridges to `grok agent stdio` through ACP. Very early, but exactly the kind of wrapper category that will grow fast. |
 | [grokbuildweb.com](https://grokbuildweb.com/) | Project site for the browser UI wrapper. |
 | [parallelagents.live](https://parallelagents.live/) | Unofficial "arena" style demo around parallel agents. Treat as inspiration, not documentation. |
+| [Build Remote Agent](https://grokbuildremote.com/) ([agents](https://github.com/LinespottingOrg/GrokBuildRemote-Agents)) | Phone spectator for a desktop Grok Build session. Pair with free MIT `gbr-agent` (`gbr/1`). Attach `http://127.0.0.1:8788` or `gbr-mcp`. Commercial app + MIT agent. Independent product, not affiliated with xAI. See [docs/gbr.md](docs/gbr.md). |
 
 Submit more via PR. Include a one-line description, license, and whether it is official, community, experimental, or commercial.
 
