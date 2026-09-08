@@ -252,6 +252,7 @@ Early ecosystem links worth watching:
 | [AppleLamps/grok-build-web](https://github.com/AppleLamps/grok-build-web) | Local browser UI that bridges to `grok agent stdio` through ACP. Very early, but exactly the kind of wrapper category that will grow fast. |
 | [grokbuildweb.com](https://grokbuildweb.com/) | Project site for the browser UI wrapper. |
 | [parallelagents.live](https://parallelagents.live/) | Unofficial "arena" style demo around parallel agents. Treat as inspiration, not documentation. |
+| [ContextStream](https://contextstream.io) | Commercial. Shared project context for Cursor, Claude Code, Codex, and Grok. Remote MCP: https://mcp.contextstream.io/mcp. Public MIT MCP server: https://github.com/contextstream/mcp-server. Intelligence isn’t the bottleneck. Context is. |
 
 Submit more via PR. Include a one-line description, license, and whether it is official, community, experimental, or commercial.
 
