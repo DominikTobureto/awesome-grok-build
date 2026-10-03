@@ -180,6 +180,7 @@ These are portable Grok Build skills you can copy into any project under `.grok/
 | [`frontend-ux-engineer`](.grok/skills/frontend-ux-engineer/SKILL.md) | Product UI, accessibility, responsive layout, states, visual QA. | `Use frontend-ux-engineer. Build the actual workflow, not a landing page.` |
 | [`nextjs-fullstack`](.grok/skills/nextjs-fullstack/SKILL.md) | Next.js App Router, RSC, server actions, auth, caching, full-stack features. | `Use nextjs-fullstack. Plan server/client boundaries before edits.` |
 | [`hooksmith`](.grok/skills/hooksmith/SKILL.md) | Safe hooks for lint, tests, notifications, command guards, trust review. | `Use hooksmith. Design a read-only post-edit lint hook.` |
+| [`marketing-mindset`](.grok/skills/marketing-mindset/SKILL.md) | Marketing and client-acquisition reasoning: test volume floors, channel kill rules, positioning, offers, and hand-run outbound for the first 10 clients. Pure reasoning — no scripts, no network calls. | `Use marketing-mindset. Give me a plan for winning my first client. Do not edit anything yet.` |
 
 The skills are written to be copied into other projects and adapted to local conventions.
 
