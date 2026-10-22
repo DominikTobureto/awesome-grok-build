@@ -252,6 +252,7 @@ Early ecosystem links worth watching:
 | [AppleLamps/grok-build-web](https://github.com/AppleLamps/grok-build-web) | Local browser UI that bridges to `grok agent stdio` through ACP. Very early, but exactly the kind of wrapper category that will grow fast. |
 | [grokbuildweb.com](https://grokbuildweb.com/) | Project site for the browser UI wrapper. |
 | [parallelagents.live](https://parallelagents.live/) | Unofficial "arena" style demo around parallel agents. Treat as inspiration, not documentation. |
+| [Campfire SMS](https://campfiresms.com/) | **Commercial** (free tier: 40 messages; MIT-licensed [connector source](https://github.com/campfiresms/campfire-mcp)). Two-way SMS MCP server: `npx -y @campfiresms/setup YOUR_INSTALLATION_CODE` (a one-time code generated in your Campfire SMS account) registers it with the Grok Build CLI, so a long-running Grok Build session can text you when it finishes or is blocked and read your SMS reply. Useful for walking away from Plan Mode or subagent runs without watching the terminal. |
 
 Submit more via PR. Include a one-line description, license, and whether it is official, community, experimental, or commercial.
 
