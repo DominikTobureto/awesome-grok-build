@@ -252,6 +252,7 @@ Early ecosystem links worth watching:
 | [AppleLamps/grok-build-web](https://github.com/AppleLamps/grok-build-web) | Local browser UI that bridges to `grok agent stdio` through ACP. Very early, but exactly the kind of wrapper category that will grow fast. |
 | [grokbuildweb.com](https://grokbuildweb.com/) | Project site for the browser UI wrapper. |
 | [parallelagents.live](https://parallelagents.live/) | Unofficial "arena" style demo around parallel agents. Treat as inspiration, not documentation. |
+| [carlomanuali/buzz-plugin-grok](https://github.com/carlomanuali/buzz-plugin-grok) | Community, Apache-2.0. A [Buzz](https://buzz.xyz) desktop plugin that runs Grok as a chat agent through `grok agent stdio` (ACP): mention it in a thread and it answers there, with Buzz tools and optional Composio apps. Sessions get a tool allowlist with no shell or file tools, run under `--sandbox strict`, and are read-only by default. Checked with grok 1.0.92. |
 
 Submit more via PR. Include a one-line description, license, and whether it is official, community, experimental, or commercial.
 
